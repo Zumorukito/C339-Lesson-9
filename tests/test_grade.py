@@ -7,7 +7,7 @@ from src.grade import score_to_letter_grade
     [
         (0, "F"),
         (49.9, "F"),
-        (50, "D"),  # Deliberately wrong expectation: spec says 50 -> D, so this ONE case fails
+        (50, "F"),  # Deliberately wrong expectation: spec says 50 -> D, so this ONE case fails
         (54.9, "D"),
         (55, "D+"),
         (59.9, "D+"),
