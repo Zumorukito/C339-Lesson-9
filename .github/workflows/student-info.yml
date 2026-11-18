@@ -1,0 +1,15 @@
+name: Student Info
+
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: DispLay Student Name
+        run: echo "Student Name: Jovin"
+      - name: DispLay Module
+        run: echo "Module: C339 Software Testing and Analytics"
+      - name: DispLay Message
+        run: echo "My Github Action is running automatically"
