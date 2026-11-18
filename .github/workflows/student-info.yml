@@ -1,15 +1,20 @@
+
 name: Student Info
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   hello:
     runs-on: ubuntu-latest
 
     steps:
-      - name: DispLay Student Name
+      - name: Display Student Name
         run: echo "Student Name: Jovin"
-      - name: DispLay Module
+
+      - name: Display Module
         run: echo "Module: C339 Software Testing and Analytics"
-      - name: DispLay Message
-        run: echo "My Github Action is running automatically"
+
+      - name: Display Message
+        run: echo "Message: This is my first Github Action"
